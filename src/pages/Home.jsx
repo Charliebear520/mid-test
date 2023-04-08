@@ -6,7 +6,11 @@ import ProductList from "../components/ProductList";
 import products from "../json/products.json";
 import IGList from "../components/IGList/Index";
 import photos from "../json/igphotos.json";
+import CategoryList from "../components/CategoryList";
+import categories from "../json/category.json";
 import Intro from "../components/Intro";
+import DetailList from "../components/DetailList";
+import DetailList2 from "../components/DetailList2";
 
 function Home() {
   const {
@@ -28,6 +32,9 @@ function Home() {
       <Header className="layoutHeader" title={title} slogan="HIAR" />
       <div className="layoutContent container">
         <Intro />
+        <CategoryList categories={categories} />
+        <DetailList />
+        <DetailList2 />
         <ProductList products={products} />
         <IGList photos={photos} />
       </div>

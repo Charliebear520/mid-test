@@ -1,12 +1,14 @@
 .container {
-  display: grid;
-  /* margin: 2em; */
+  /* display: grid;
+  margin: 2em;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  /* width: "100%"; */
+  height: auto;
 }
 
-.photo {
+/* .photo {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */

@@ -1,0 +1,35 @@
+.image_col {
+  /* background-color: #c10f0f; */
+  padding: 1rem;
+}
+
+.detail-image {
+  width: 100%;
+}
+
+.detail_col {
+  /* background-color: #27c58b; */
+
+  padding: 10px;
+  height: 200px;
+}
+
+.name {
+  color: #3b5233;
+  margin: 1rem;
+  width: 50%;
+}
+
+.description {
+  color: #3b5233;
+  margin: 1rem;
+}
+
+.button {
+  margin: 1rem;
+  font-size: 16px;
+  padding: 2rem 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

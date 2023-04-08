@@ -72,4 +72,6 @@ body {
 
 .layoutContent {
   grid-area: content;
+  padding: 0;
+  height: auto;
 }

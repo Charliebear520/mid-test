@@ -1,0 +1,26 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf7f2;
+  padding: 3em;
+  margin: 2em;
+}
+.head {
+  display: grid;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  display: grid;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  display: grid;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
