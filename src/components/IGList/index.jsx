@@ -1,0 +1,32 @@
+import { Row, Col } from "antd";
+import IGItem from "../IGItem";
+import styles from "./iglist.module.css";
+
+export default function IGList({ photos }) {
+  return (
+    <Row gutter={[32, 32]} className={styles.section}>
+      <Col
+        sm={{ span: 24 }}
+        lg={{ span: 24 }}
+        xl={{ span: 24 }}
+        xxl={{ span: 24 }}
+      >
+        <div className={styles.head}>
+          <h1 className={styles.logo}>Follow us on instagram</h1>
+          <h4 className={styles.name}>@ntuedtd_ig</h4>
+        </div>
+      </Col>
+      {photos.map((photo) => (
+        <Col
+          key={photo.id}
+          sm={{ span: 12 }}
+          lg={{ span: 8 }}
+          xl={{ span: 6 }}
+          xxl={{ span: 4 }}
+        >
+          <IGItem photo={photo} />
+        </Col>
+      ))}
+    </Row>
+  );
+}

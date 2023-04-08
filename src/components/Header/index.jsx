@@ -1,0 +1,39 @@
+import { useState } from "react";
+import Link from "../Link";
+import NavBar from "../NavBar";
+import styles from "./header.module.css";
+import HamburgerMenu from "../HamburgerMenu";
+import CartSummary from "../CartSummary";
+import SetColorMode from "../SetColorMode";
+import ShopAll from "../ShopAll";
+
+export default function Header({ title, slogan }) {
+  const [isOnTouch, setIsOnTouch] = useState(false);
+
+  return (
+    <div className="container">
+      <div>
+        <div className={styles.header}>
+          <HamburgerMenu
+            onClick={() => setIsOnTouch(!isOnTouch)}
+            isOnTouch={isOnTouch}
+          />
+          <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} />
+          <div className={styles.logo}>
+            <Link to="/">
+              <h1 className={styles.headerTitle}>{title}</h1>
+            </Link>
+            <p className={styles.headerSlogan}>{slogan}</p>
+          </div>
+        </div>
+
+        <hr className={styles.hrHeaderLine} />
+        <ShopAll />
+      </div>
+      <div className={styles.iconWrap}>
+        <SetColorMode />
+        <CartSummary />
+      </div>
+    </div>
+  );
+}
