@@ -30,12 +30,12 @@ function Home() {
         `}</style>
       </Helmet>
       <Header className="layoutHeader" title={title} slogan="HIAR" />
-      <div className="layoutContent container">
+      <div className="layoutContent container ">
         <Intro />
         <CategoryList categories={categories} />
         <DetailList />
         <DetailList2 />
-        {/* <ProductList products={products} /> */}
+
         <IGList photos={photos} />
       </div>
       <Footer className="layoutFooter" />

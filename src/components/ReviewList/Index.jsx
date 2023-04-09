@@ -13,7 +13,7 @@ import { Pagination } from "swiper";
 
 export default function ReviewList({ reviews }) {
   const {
-    token: { colorBgFooter, colorTextFooter },
+    token: { colorBgBase, colorTextFooter },
   } = theme.useToken();
   const onChange = (e) => {
     console.log(`checked = ${e.target.checked}`);
@@ -21,7 +21,7 @@ export default function ReviewList({ reviews }) {
   return (
     <div
       style={{
-        backgroundColor: colorBgFooter,
+        backgroundColor: colorBgBase,
         color: colorTextFooter,
       }}
     >

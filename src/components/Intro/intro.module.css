@@ -4,11 +4,12 @@
   justify-content: center;
   align-items: center; */
   /* width: "100%"; */
+
   height: auto;
 }
 
-/* .photo {
-  display: flex;
+.photo {
+  /* display: flex; */
   justify-content: center;
   align-items: center;
-} */
+}

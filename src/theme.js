@@ -5,7 +5,6 @@ const darkTheme = {
   token: {
     colorPrimary: "#F64343",
     colorBgBase: "#2D4325",
-    colorBgBase2: "#3B5233",
     colorTextBase: "#F0E9DD",
     colorTextFooter: "#F0E9DD",
     colorBgFooter: "#3B5233",

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Row, Col } from "antd";
 import Link from "../Link";
 import NavBar from "../NavBar";
 import styles from "./header.module.css";
@@ -18,15 +19,22 @@ export default function Header({ title, slogan }) {
             isOnTouch={isOnTouch}
           />
           <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} />
-          <div className={styles.logo}>
-            <Link to="/">
-              <h1 className={styles.headerTitle}>{title}</h1>
-            </Link>
-            <p className={styles.headerSlogan}>{slogan}</p>
-          </div>
+          <Row gutter={[32, 32]}>
+            <Col
+              sm={{ span: 24 }}
+              lg={{ span: 24 }}
+              xl={{ span: 24 }}
+              xxl={{ span: 24 }}
+            >
+              <div className={styles.logo}>
+                <Link to="/">
+                  <h1 className={styles.headerTitle}>{title}</h1>
+                </Link>
+                <p className={styles.headerSlogan}>{slogan}</p>
+              </div>
+            </Col>
+          </Row>
         </div>
-
-        <hr className={styles.hrHeaderLine} />
       </div>
       <div className={styles.iconWrap}>
         <SetColorMode />
