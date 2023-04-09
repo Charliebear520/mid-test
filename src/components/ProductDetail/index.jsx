@@ -28,15 +28,25 @@ function ProductDetail({ product }) {
         <div className={styles.info}>
           <h2 className={styles.category}>{product.category}</h2>
           <h1 className={styles.name}>{product.name}</h1>
-          <p className={styles.description}>{product.description_long}</p>
+
+          {product.description_long.map((str) => (
+            <p key={str} className={styles.description}>
+              {str}
+            </p>
+          ))}
+          <hr className={styles.hrBoldLine} />
           <h3>Suited to</h3>
           <p className={styles.text}>{product.suit}</p>
+          <hr className={styles.hrThinLine} />
           <h3>Aroma</h3>
           <p className={styles.text}>{product.suit}</p>
+          <hr className={styles.hrThinLine} />
           <h3>Key ingredients</h3>
           <p className={styles.text}>{product.suit}</p>
+          <hr className={styles.hrThinLine} />
           <h3>Size</h3>
           <p className={styles.text}>{product.suit}</p>
+
           <div className={styles.wrap}>
             <p className={styles.price}>US${product.price}.00</p>
             <p className={styles.status}>
@@ -57,7 +67,7 @@ function ProductDetail({ product }) {
                 ))}
               </Select>
             </div>
-            <p className={styles.qty}>Total Price: {product.price * qty}</p>
+            {/* <p className={styles.qty}>Total Price: {product.price * qty}</p> */}
             <AddToBasket product={product} qty={qty} />
           </div>
         </div>

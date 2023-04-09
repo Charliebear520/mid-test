@@ -7,12 +7,12 @@ export default function NavBar({ open, onClose }) {
   const NavBarContent = () => (
     <>
       <NavLink
-        to="/products/category/tableware"
+        to="/shop"
         className={({ isActive }) =>
           isActive ? styles.navItemActive : styles.navItem
         }
       >
-        Tableware
+        SHOP
       </NavLink>
       <NavLink
         to="/products/category/cookware"
@@ -20,7 +20,7 @@ export default function NavBar({ open, onClose }) {
           isActive ? styles.navItemActive : styles.navItem
         }
       >
-        Cookware
+        ABOUT
       </NavLink>
       <NavLink
         to="/products/category/home-accessories"
@@ -28,7 +28,7 @@ export default function NavBar({ open, onClose }) {
           isActive ? styles.navItemActive : styles.navItem
         }
       >
-        Home Accessories
+        CONTACT
       </NavLink>
       {/* <NavLink
         to="/products/category/lighting"

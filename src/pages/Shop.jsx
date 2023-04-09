@@ -11,8 +11,9 @@ import categories from "../json/category.json";
 import Intro from "../components/Intro";
 import DetailList from "../components/DetailList";
 import DetailList2 from "../components/DetailList2";
+import ShopAll from "../components/ShopAll";
 
-function Home() {
+function Shop() {
   const {
     token: { colorBgBase, colorTextBase },
   } = theme.useToken();
@@ -30,12 +31,10 @@ function Home() {
         `}</style>
       </Helmet>
       <Header className="layoutHeader" title={title} slogan="HIAR" />
+
       <div className="layoutContent container">
-        <Intro />
-        <CategoryList categories={categories} />
-        <DetailList />
-        <DetailList2 />
-        {/* <ProductList products={products} /> */}
+        <ShopAll />
+        <ProductList products={products} />
         <IGList photos={photos} />
       </div>
       <Footer className="layoutFooter" />
@@ -43,4 +42,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Shop;

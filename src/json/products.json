@@ -8,7 +8,11 @@
     "image": "/images/shop_image1.png",
     "description": "From 16.9 fl oz ",
     "suit": "Thin,fine or limp hair",
-    "description_long": "A lifting formulation boosted with Polyquaternium 67 to assist the separation of hair shafts for volume and body, while botanical oils deliver hydration and lustre.",
+    "description_long": [
+      "A lifting formulation boosted with Polyquaternium 67 to assist the",
+      "separation of hair shafts for volume and body, while botanical oils",
+      "deliver hydration and lustre."
+    ],
     "currency": "USD",
     "countInStock": 10
   },

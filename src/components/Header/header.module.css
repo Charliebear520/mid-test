@@ -5,14 +5,20 @@
 }
 
 .headerTitle {
-  font-size: 1.3rem;
+  /* font-size: 1.3rem; */
   padding: 0;
   padding-top: 1rem;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
   .headerTitle {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -22,10 +28,17 @@
 }
 
 .headerSlogan {
-  opacity: 0.6;
+  /* opacity: 0.6; */
   padding: 0;
   margin: 0;
-  line-height: 0.8;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
 }
 
 .hrHeaderLine {

@@ -16,10 +16,24 @@
 }
 
 .name {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
   margin-bottom: 0.5rem;
 }
 
 .description {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
   opacity: 0.6;
   margin-bottom: 1rem;
 }

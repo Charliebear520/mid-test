@@ -5,7 +5,6 @@ import styles from "./header.module.css";
 import HamburgerMenu from "../HamburgerMenu";
 import CartSummary from "../CartSummary";
 import SetColorMode from "../SetColorMode";
-import ShopAll from "../ShopAll";
 
 export default function Header({ title, slogan }) {
   const [isOnTouch, setIsOnTouch] = useState(false);
@@ -28,7 +27,6 @@ export default function Header({ title, slogan }) {
         </div>
 
         <hr className={styles.hrHeaderLine} />
-        <ShopAll />
       </div>
       <div className={styles.iconWrap}>
         <SetColorMode />

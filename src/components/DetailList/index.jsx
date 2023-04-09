@@ -36,7 +36,7 @@ export default function DetailList() {
             <Row span={8}>
               <div>
                 <Button className={styles.button}>
-                  <span style={{ marginRight: "4rem", color: "#3B5233" }}>
+                  <span style={{ marginRight: "4rem" }}>
                     Discover Hair Care
                   </span>
                   <RightOutlined style={{ fontSize: "18px" }} />
