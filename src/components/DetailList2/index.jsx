@@ -28,20 +28,20 @@ export default function DetailList2() {
         >
           <Row>
             <div className={styles.name}>
-              <h1>Efficacious care from root to tip</h1>
+              <h1>Store Locator</h1>
             </div>
           </Row>
           <Row>
             <div className={styles.description}>
               <h3>
-                Our range of specialist solutions is instrumental in refreshing
-                roots, hydrating hair and composing coiffures of all types.
+                Our consultants are available to host you in-store  and
+                provide tailored guidance on gift purchases. 
               </h3>
             </div>
           </Row>
           <Row>
             <Button className={styles.button}>
-              <span style={{ marginRight: "4rem" }}>Discover Hair Care</span>
+              <span style={{ marginRight: "4rem" }}>Find a nearby store</span>
               <RightOutlined style={{ fontSize: "18px" }} />
             </Button>
           </Row>

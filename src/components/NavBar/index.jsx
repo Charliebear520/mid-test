@@ -78,8 +78,8 @@ export default function NavBar({ open, onClose }) {
       <Drawer title="CATEGORY" placement="right" onClose={onClose} open={open}>
         <div className={styles.drawer}>
           <NavBarContent />
-          {/* <CartSummary />
-          <SetColorMode /> */}
+          <CartSummary />
+          <SetColorMode />
         </div>
       </Drawer>
     </>

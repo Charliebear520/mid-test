@@ -24,7 +24,7 @@ export default function CategoryList({ categories }) {
           xxl={{ span: 24 }}
         >
           <div className={styles.head}>
-            <h1 className={styles.logo}>Our Product</h1>
+            <h1 className={styles.logo}>Our Products</h1>
           </div>
         </Col>
         {categories.map((category) => (

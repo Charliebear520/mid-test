@@ -25,10 +25,6 @@
   }
 }
 
-.logo {
-  /* grid-area: logo; */
-  /* flex-direction: column; */
-}
 .navbar {
   display: grid;
   grid-area: navbar;
