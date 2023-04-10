@@ -1,6 +1,6 @@
 import { Row, Col, theme } from "antd";
 import React, { useRef, useState } from "react";
-import ReviewItem from "../ReviewItem/Index";
+// import ReviewItem from "../ReviewItem/Index";
 import styles from "./reviewlist.module.css";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
