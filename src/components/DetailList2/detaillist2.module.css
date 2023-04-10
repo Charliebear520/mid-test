@@ -32,6 +32,9 @@
   align-items: center;
   margin: 1rem;
   width: 50%;
+  font-family: "Antic Didone";
+  font-style: normal;
+  font-weight: 400;
 }
 
 .description {
@@ -40,6 +43,10 @@
   justify-content: center;
   align-items: center;
   margin: 1rem;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
 }
 
 .button {

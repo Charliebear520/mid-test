@@ -33,42 +33,42 @@ export default function Footer() {
             <p style={{ fontWeight: 400 }}>Orders and support</p>
             <hr className={styles.hrFooterLine} />
             <div className={styles.iconsArea}>
-              <a href="#">
-                <p style={{ fontWeight: 400 }}>Orders and support</p>
+              <a>
+                <p style={{ fontWeight: 400 }}>Contact us</p>
               </a>
-              <a href="#">
-                <p style={{ fontWeight: 400 }}>Orders and support</p>
+              <a>
+                <p style={{ fontWeight: 400 }}>FAQs</p>
               </a>
-              <a href="#">
-                <p style={{ fontWeight: 400 }}>Orders and support</p>
+              <a>
+                <p style={{ fontWeight: 400 }}>Shipping</p>
               </a>
-              <a href="#">
-                <p style={{ fontWeight: 400 }}>Orders and support</p>
+              <a>
+                <p style={{ fontWeight: 400 }}>Returns</p>
               </a>
-              <a href="#">
-                <p style={{ fontWeight: 400 }}>Orders and support</p>
+              <a>
+                <p style={{ fontWeight: 400 }}>Track your order</p>
               </a>
-              <a href="#">
-                <p style={{ fontWeight: 400 }}>Orders and support</p>
+              <a>
+                <p style={{ fontWeight: 400 }}>Order history</p>
               </a>
-              <a href="#">
-                <p style={{ fontWeight: 400 }}>Orders and support</p>
+              <a>
+                <p style={{ fontWeight: 400 }}>Check gift card balance</p>
               </a>
-              <a href="#">
-                <p style={{ fontWeight: 400 }}>Orders and support</p>
+              <a>
+                <p style={{ fontWeight: 400 }}>Terms and conditions</p>
               </a>
-              <a href="#">
-                <p style={{ fontWeight: 400 }}>Orders and support</p>
+              <a>
+                <p style={{ fontWeight: 400 }}>Product recalls</p>
               </a>
             </div>
           </div>
           <div className={styles.contactUs}>
             <p style={{ fontWeight: 400 }}>Services</p>
             <hr className={styles.hrFooterLine} />
-            <p style={{ fontWeight: 400 }}>Orders and support</p>
-            <p style={{ fontWeight: 400 }}>Orders and support</p>
-            <p style={{ fontWeight: 400 }}>Orders and support</p>
-            <p style={{ fontWeight: 400 }}>Orders and support</p>
+            <p style={{ fontWeight: 400 }}>Click and Collect</p>
+            <p style={{ fontWeight: 400 }}>Live assistance</p>
+            <p style={{ fontWeight: 400 }}>Corporate gifts</p>
+            <p style={{ fontWeight: 400 }}>Video consultation</p>
           </div>
           <div className={styles.Location}>
             <p style={{ fontWeight: 400 }}>Location preferences</p>
@@ -90,42 +90,44 @@ export default function Footer() {
             <p style={{ fontWeight: 400 }}>About</p>
             <hr className={styles.hrFooterLine} />
             <div className={styles.iconsArea}>
-              <a href="#">
-                <p style={{ fontWeight: 400 }}>Orders and support</p>
+              <a>
+                <p style={{ fontWeight: 400 }}>Our story</p>
               </a>
-              <a href="#">
-                <p style={{ fontWeight: 400 }}>Orders and support</p>
+              <a>
+                <p style={{ fontWeight: 400 }}>Foundation</p>
               </a>
-              <a href="#">
-                <p style={{ fontWeight: 400 }}>Orders and support</p>
+              <a>
+                <p style={{ fontWeight: 400 }}>Careers</p>
               </a>
-              <a href="#">
-                <p style={{ fontWeight: 400 }}>Orders and support</p>
+              <a>
+                <p style={{ fontWeight: 400 }}>Regulatory policies</p>
               </a>
-              <a href="#">
-                <p style={{ fontWeight: 400 }}>Orders and support</p>
+              <a>
+                <p style={{ fontWeight: 400 }}>Privacy policy</p>
               </a>
-              <a href="#">
-                <p style={{ fontWeight: 400 }}>Orders and support</p>
+              <a>
+                <p style={{ fontWeight: 400 }}>Cookie Policy</p>
               </a>
-              <a href="#">
-                <p style={{ fontWeight: 400 }}>Orders and support</p>
+              <a>
+                <p style={{ fontWeight: 400 }}>
+                  California Cleaning Products Right to
+                </p>
               </a>
-              <a href="#">
-                <p style={{ fontWeight: 400 }}>Orders and support</p>
+              <a>
+                <p style={{ fontWeight: 400 }}>Know Act</p>
               </a>
             </div>
           </div>
           <div className={styles.contactUs2}>
             <p style={{ fontWeight: 400 }}>Social Media</p>
             <hr className={styles.hrFooterLine} />
-            <a href="#">
+            <a>
               <p style={{ fontWeight: 400 }}>Instagram</p>
             </a>
-            <a href="#">
+            <a>
               <p style={{ fontWeight: 400 }}>Twitter</p>
             </a>
-            <a href="#">
+            <a>
               <p style={{ fontWeight: 400 }}>Linkedin</p>
             </a>
           </div>

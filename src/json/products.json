@@ -2,9 +2,9 @@
   {
     "id": "1",
     "category": "Conditioner",
-    "name": "Volumising Shampoo",
+    "name": "Resurrection Aromatique Hand Wash",
     "sku": "sku_313354",
-    "price": 82,
+    "price": 41,
     "image": "/images/shop_image1.png",
     "description": "From 16.9 fl oz ",
     "suit": "Thin,fine or limp hair",
@@ -19,9 +19,9 @@
   {
     "id": "2",
     "category": "Shampoo",
-    "name": "Pom Pom cushion 45x45 cm",
+    "name": "Conditioner",
     "sku": "sku_313355",
-    "price": 76,
+    "price": 51,
     "image": "/images/shop_image2.png",
     "description": "From 17.2 fl oz ＄51.00",
     "description_long": "The Pom Pom cushion 45x45 cm from the Swedish By On is a pure dream for those who love soft and cosy styles of decor. This wonderful cushion is covered in small, fluffy Pom Poms, which quickly helps you create an inviting and snug feel on your corner sofa, your favourite recliner, or on the bed in the bedroom.",
@@ -31,7 +31,7 @@
   {
     "id": "3",
     "category": "Hair Serum",
-    "name": "Rustic mug",
+    "name": "Volumising Shampoo",
     "sku": "sku_313356",
     "price": 6,
     "image": "/images/shop_image3.png",
@@ -43,7 +43,7 @@
   {
     "id": "4",
     "category": "Hair Polish",
-    "name": "Essence white wine glass 4-pack",
+    "name": "Rose Hair & Scalp Moisturising Masque",
     "sku": "sku_313358",
     "price": 63,
     "image": "/images/shop_image4.png",
@@ -55,7 +55,7 @@
   {
     "id": "5",
     "category": "Home-Accessories",
-    "name": "Triplets easter rabbit 3-pack",
+    "name": "Olous Aromatique Room Spray",
     "sku": "sku_622147",
     "price": 16,
     "image": "/images/shop_image5.png",
@@ -67,7 +67,7 @@
   {
     "id": "6",
     "category": "Home-Accessories",
-    "name": "Nova pedal bin",
+    "name": "Sculpt Hair Polish",
     "sku": "sku_622146",
     "price": 83,
     "image": "/images/shop_image6.png",
@@ -79,7 +79,7 @@
   {
     "id": "7",
     "category": "Lighting",
-    "name": "Silvia lamp white",
+    "name": "Sage & Cedar Scalp Treatment",
     "sku": "sku_125983",
     "price": 47,
     "image": "/images/shop_image7.png",
@@ -91,7 +91,7 @@
   {
     "id": "8",
     "category": "Lighting",
-    "name": "Luciakör candle arch",
+    "name": "Equalising Shampoo",
     "sku": "sku_125982",
     "price": 83,
     "image": "/images/shop_image8.png",
@@ -103,7 +103,7 @@
   {
     "id": "9",
     "category": "Furniture",
-    "name": "High Dot stool leather",
+    "name": "Parsley Seed Extended Anti-Oxidant Skin Care Kit",
     "sku": "sku_559961",
     "price": 463,
     "image": "/images/shop_image9.png",

@@ -11,7 +11,7 @@ export function CartIcon({ color }) {
         fill="none"
         stroke={color}
         strokeLinecap="square"
-        strokeWidth="1.5"
+        strokeWidth="1"
         d="M11.5 6H16.5V20.5H1V6H5.5M11.5 6C11.5 4 11.5 0.5 8.5 0.5C6.1 0.5 5.5 4.16667 5.5 6M11.5 6C11.5 8.33333 10.9 13 8.5 13C5.5 13 5.5 8 5.5 6M11.5 6H5.5"
       />
     </svg>
