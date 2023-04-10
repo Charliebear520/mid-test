@@ -7,7 +7,7 @@ import ProductDetail from "../components/ProductDetail";
 import products from "../json/products.json";
 import IGList from "../components/IGList/index";
 import photos from "../json/igphotos.json";
-import ReviewList from "../components/ReviewList/";
+import ReviewList from "../components/ReviewList";
 import reviews from "../json/reviews.json";
 import SuggestList from "../components/SuggestList";
 import suggestions from "../json/suggestions.json";
