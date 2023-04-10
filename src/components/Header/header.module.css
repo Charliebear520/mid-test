@@ -1,8 +1,10 @@
 .header {
   text-align: center;
   display: grid;
-
+  grid-template-areas: "navbar logo iconWrap";
   grid-template-columns: repeat(3, 1fr);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .headerTitle {
@@ -24,10 +26,13 @@
 }
 
 .logo {
-  display: flex;
-  flex-direction: column;
+  /* grid-area: logo; */
+  /* flex-direction: column; */
 }
-
+.navbar {
+  display: grid;
+  grid-area: navbar;
+}
 .headerSlogan {
   /* opacity: 0.6; */
   padding: 0;
@@ -42,29 +47,17 @@
   text-align: center;
 }
 
-.hrHeaderLine {
-  margin: 25px auto 30px;
-  padding: 0;
-  width: 100px;
-  border: 0;
-  border-top: solid 6px;
-  border-color: #6366f2;
-  opacity: 1;
-}
-
 .iconWrap {
-  position: absolute;
-  right: 0.5rem;
-  top: 2rem;
-  display: grid;
-  grid-template-columns: repeat(2, 2.5rem);
+  display: none;
 }
 
 @media (min-width: 768px) {
   .iconWrap {
-    right: 1rem;
-    top: 2rem;
-    display: grid;
-    grid-template-columns: repeat(2, 4rem);
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 1rem;
   }
 }

@@ -32,6 +32,17 @@ export default function NavBar({ open, onClose }) {
         CONTACT
       </NavLink>
 
+      {/* <CartSummary
+        className={({ isActive }) =>
+          isActive ? styles.navItemActive : styles.navItem
+        }
+      />
+      <SetColorMode
+        className={({ isActive }) =>
+          isActive ? styles.navItemActive : styles.navItem
+        }
+      /> */}
+
       {/* <NavLink
         to="/products/category/lighting"
         className={({ isActive }) =>
@@ -64,11 +75,11 @@ export default function NavBar({ open, onClose }) {
       <div className={styles.navBar}>
         <NavBarContent />
       </div>
-      <Drawer title="CATEGORY" placement="center" onClose={onClose} open={open}>
+      <Drawer title="CATEGORY" placement="right" onClose={onClose} open={open}>
         <div className={styles.drawer}>
           <NavBarContent />
-          <CartSummary />
-          <SetColorMode />
+          {/* <CartSummary />
+          <SetColorMode /> */}
         </div>
       </Drawer>
     </>

@@ -56,3 +56,21 @@
     color: white;
   }
 }
+
+.iconWrap {
+  position: absolute;
+  right: 0.5rem;
+  top: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 2.5rem);
+}
+
+@media (min-width: 768px) {
+  .iconWrap {
+    right: 1rem;
+    top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 4rem);
+  }
+}
