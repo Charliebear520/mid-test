@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ProductList from "../components/ProductList";
 import products from "../json/products.json";
-import IGList from "../components/IGList/Index";
+import IGList from "../components/IGList/index";
 import photos from "../json/igphotos.json";
 import CategoryList from "../components/CategoryList";
 import categories from "../json/category.json";
