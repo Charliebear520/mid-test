@@ -6,7 +6,7 @@ import ProductList from "../components/ProductList";
 import products from "../json/products.json";
 import IGList from "../components/IGList/index";
 import photos from "../json/igphotos.json";
-import CategoryList from "../components/CategoryList";
+// import CategoryList from "../components/CategoryList";
 import categories from "../json/category.json";
 import Intro from "../components/Intro";
 import DetailList from "../components/DetailList";
