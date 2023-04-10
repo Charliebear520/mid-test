@@ -1,5 +1,6 @@
 import { Row, Col, theme } from "antd";
 import ProductItem from "../ProductItem";
+import styles from "./productlist.module.css";
 
 export default function ProductList({ products }) {
   const {
@@ -15,7 +16,7 @@ export default function ProductList({ products }) {
         color: colorTextFooter,
       }}
     >
-      <Row gutter={[32, 32]}>
+      <Row gutter={[32, 32]} className={styles.section}>
         {products.map((product) => (
           <Col
             key={product.id}

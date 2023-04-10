@@ -55,7 +55,7 @@ export default function ReviewList({ reviews }) {
                   src={review.image}
                   alt={review.name}
                 />
-                <p>{review.description}</p>
+                <p className={styles.description}>{review.description}</p>
                 {/* <p>{review.comment}</p> */}
               </SwiperSlide>
             ))}
