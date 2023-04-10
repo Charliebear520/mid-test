@@ -5,14 +5,14 @@ export function CartIcon({ color }) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className={styles.headerIcon}
-      viewBox="0 0 32 32"
+      viewBox="0 0 17 21"
     >
       <path
         fill="none"
         stroke={color}
         strokeLinecap="square"
         strokeWidth="1.5"
-        d="M20,4 L24,16 M12,4 L8,16 M3,12 L29,12 C28.3333333,22 26.3333333,27 23,27 C18,27 14,27 9,27 C5.66666667,27 3.66666667,22 3,12 Z"
+        d="M11.5 6H16.5V20.5H1V6H5.5M11.5 6C11.5 4 11.5 0.5 8.5 0.5C6.1 0.5 5.5 4.16667 5.5 6M11.5 6C11.5 8.33333 10.9 13 8.5 13C5.5 13 5.5 8 5.5 6M11.5 6H5.5"
       />
     </svg>
   );

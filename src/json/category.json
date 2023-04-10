@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "category": "Textile",
+    "category": "Conditioner",
     "name": "Domino wool throw",
     "sku": "sku_313354",
     "price": 82,
@@ -13,7 +13,7 @@
   },
   {
     "id": "2",
-    "category": "Textile",
+    "category": "Shampoo",
     "name": "Pom Pom cushion 45x45 cm",
     "sku": "sku_313355",
     "price": 76,
@@ -25,7 +25,7 @@
   },
   {
     "id": "3",
-    "category": "Tableware",
+    "category": "Hair Serum",
     "name": "Rustic mug",
     "sku": "sku_313356",
     "price": 6,
@@ -37,7 +37,7 @@
   },
   {
     "id": "4",
-    "category": "Tableware",
+    "category": "Hair Polish",
     "name": "Essence white wine glass 4-pack",
     "sku": "sku_313358",
     "price": 63,
