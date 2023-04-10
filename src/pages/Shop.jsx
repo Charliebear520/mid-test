@@ -32,7 +32,7 @@ function Shop() {
       </Helmet>
       <Header className="layoutHeader" title={title} slogan="HIAR" />
 
-      <div className="layoutContent container">
+      <div className="layoutContent ">
         <ShopAll />
         <ProductList products={products} />
         <IGList photos={photos} />

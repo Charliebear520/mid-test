@@ -3,9 +3,9 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  background-color: #faf7f2;
+  /* background-color: #faf7f2; */
   border-radius: 1%;
-  border: solid #faf7f2 1px;
+  /* border: solid #faf7f2 1px; */
   padding: 2rem;
   margin: 2em;
 }

@@ -55,13 +55,13 @@ function ProductDetail({ product }) {
             <p className={styles.text}>{product.suit}</p>
             <hr className={styles.hrThinLine} />
             <h3>Aroma</h3>
-            <p className={styles.text}>{product.suit}</p>
+            <p className={styles.text}>{product.aroma}</p>
             <hr className={styles.hrThinLine} />
             <h3>Key ingredients</h3>
-            <p className={styles.text}>{product.suit}</p>
+            <p className={styles.text}>{product.ingredients}</p>
             <hr className={styles.hrThinLine} />
             <h3>Size</h3>
-            <p className={styles.text}>{product.suit}</p>
+            <p className={styles.text}>{product.size}</p>
 
             <div className={styles.wrap}>
               {/* <p className={styles.price}>US${product.price}.00</p>

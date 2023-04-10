@@ -1,6 +1,7 @@
 import NavLink from "../NavLink";
 import { Drawer } from "antd";
-
+import CartSummary from "../CartSummary";
+import SetColorMode from "../SetColorMode";
 import styles from "./navbar.module.css";
 
 export default function NavBar({ open, onClose }) {
@@ -30,6 +31,7 @@ export default function NavBar({ open, onClose }) {
       >
         CONTACT
       </NavLink>
+
       {/* <NavLink
         to="/products/category/lighting"
         className={({ isActive }) =>
@@ -62,9 +64,11 @@ export default function NavBar({ open, onClose }) {
       <div className={styles.navBar}>
         <NavBarContent />
       </div>
-      <Drawer title="CATEGORY" placement="left" onClose={onClose} open={open}>
+      <Drawer title="CATEGORY" placement="center" onClose={onClose} open={open}>
         <div className={styles.drawer}>
           <NavBarContent />
+          <CartSummary />
+          <SetColorMode />
         </div>
       </Drawer>
     </>
